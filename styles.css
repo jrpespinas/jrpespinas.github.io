@@ -8,7 +8,7 @@ html, body {
 }
 
 .background {
-    background-image: url('img/macos-wallpaper-blue.jpg');
+    background-image: url('img/macos-wallpaper-indigo.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -23,10 +23,10 @@ html, body {
 
 .container {
     position: absolute;
-    top: 37%;
+    top: 40%;
     left: 30%;
     transform: translate(-50%, -50%);
-    padding: 10px 150px 40px 17px;
+    padding: 10px 120px 40px 17px;
     background-color: rgba(2, 26, 31, 0.4);
     backdrop-filter: blur(70px);
     border-radius: 10px;
@@ -84,16 +84,23 @@ html, body {
     color: #fff;
 }
 
+.container table {
+    width: 100%;
+    text-align: left;
+    line-height: 1.6; 
+    color: #fff;
+}
+
 .container-prompt-user {
     background: black;
     color: #fff;
-    padding: 4px 10px 4px 10px;
+    padding: 3px 10px 3px 10px;
 }
 
 .container-prompt-folder {
     background: rgb(0, 0, 209);
     color: #FFF;
-    padding: 4px 10px 4px 10px;
+    padding: 3px 10px 3px 10px;
 }
 
 .shape-div {
