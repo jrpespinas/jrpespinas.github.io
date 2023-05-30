@@ -96,11 +96,63 @@ html, body {
     color: #fff;
     padding: 3px 10px 3px 10px;
 }
-
 .container-prompt-folder {
     background: rgb(0, 0, 209);
     color: #FFF;
     padding: 3px 10px 3px 10px;
+}
+
+.breadcrumb {
+    display: flex;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.breadcrumb-user {
+    display:flex;
+    align-items: center;
+    height: 24px;
+    padding: 0px 10px;
+    background: black;
+}
+.breadcrumb-user-single {
+    display:flex;
+    align-items: center;
+    height: 24px;
+    padding: 0px 10px 0px 0px;
+    background: black;
+}
+.user-text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 0px 0px 0px 10px;
+    justify-content: center;
+    align-items: center;
+}
+.breadcrumb-folder {
+    display:flex;
+    align-items: center;
+    height: 24px;
+    padding: 0px 10px 0px 0px;
+    background: rgb(0, 0, 209);
+}
+.folder-arrow-black{
+    width: 0; 
+    height: 0; 
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left: 12px solid black;
+}
+.folder-arrow-blue{
+    width: 0; 
+    height: 0; 
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left: 12px solid rgb(0, 0, 209);
+}
+
+.command-text {
+    margin-left: 4px;
 }
 
 .shape-div {
@@ -130,10 +182,15 @@ a:hover {
     font-weight: 900;
 }
 
+.box {
+    padding-top: 6px;
+    margin-left: 4px;
+}
+
 .box b::after {
     content: "";
     width: 10px;
-    height: 5px;
+    height: 6px;
     background: #ffffff;
     display: inline-block;
   }
