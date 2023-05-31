@@ -133,7 +133,8 @@ html, body {
     align-items: center;
     height: 24px;
     padding: 0px 10px 0px 0px;
-    background: rgb(0, 0, 209);
+    background: rgb(47, 241, 158);
+    color: black;
 }
 .folder-arrow-black{
     width: 0; 
@@ -147,7 +148,7 @@ html, body {
     height: 0; 
     border-top: 12px solid transparent;
     border-bottom: 12px solid transparent;
-    border-left: 12px solid rgb(0, 0, 209);
+    border-left: 12px solid rgb(47, 241, 158);
 }
 
 .command-text {
